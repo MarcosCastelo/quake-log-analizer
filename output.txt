@@ -1,0 +1,696 @@
+$VAR1 = {
+          'Id' => 0,
+          'Time' => '0:00',
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Kills' => 0,
+                           'Nick' => 'Isgalamido'
+                         }
+                       ]
+        };
+$VAR1 = {
+          'Players' => [
+                         {
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 3,
+                           'Id' => 2
+                         },
+                         {
+                           'Nick' => 'Mocinha',
+                           'Kills' => 0,
+                           'Id' => 3
+                         }
+                       ],
+          'Time' => '20:37',
+          'Id' => 1
+        };
+$VAR1 = {
+          'Time' => '0:00',
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Kills' => 0,
+                           'Nick' => 'Dono da Bola'
+                         },
+                         {
+                           'Kills' => 1,
+                           'Nick' => 'Isgalamido',
+                           'Id' => 3
+                         },
+                         {
+                           'Nick' => 'Zeh',
+                           'Kills' => 0,
+                           'Id' => 4
+                         }
+                       ],
+          'Id' => 2
+        };
+$VAR1 = {
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Kills' => 20,
+                           'Nick' => 'Dono da Bola'
+                         },
+                         {
+                           'Kills' => 27,
+                           'Nick' => 'Isgalamido',
+                           'Id' => 3
+                         },
+                         {
+                           'Nick' => 'Zeh',
+                           'Kills' => 22,
+                           'Id' => 4
+                         },
+                         {
+                           'Id' => 5,
+                           'Kills' => 16,
+                           'Nick' => 'Assasinu Credi'
+                         }
+                       ],
+          'Time' => '1:47',
+          'Id' => 3
+        };
+$VAR1 = {
+          'Id' => 4,
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Nick' => 'Zeh',
+                           'Kills' => 2
+                         },
+                         {
+                           'Kills' => 2,
+                           'Nick' => 'Isgalamido',
+                           'Id' => 3
+                         },
+                         {
+                           'Kills' => 0,
+                           'Nick' => 'Zeh',
+                           'Id' => 4
+                         },
+                         {
+                           'Id' => 5,
+                           'Nick' => 'Assasinu Credi',
+                           'Kills' => 5
+                         }
+                       ],
+          'Time' => '12:13'
+        };
+$VAR1 = {
+          'Id' => 5,
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Nick' => 'Oootsimo',
+                           'Kills' => 9
+                         },
+                         {
+                           'Id' => 3,
+                           'Kills' => 4,
+                           'Nick' => 'Isgalamido'
+                         },
+                         {
+                           'Kills' => 8,
+                           'Nick' => 'Zeh',
+                           'Id' => 4
+                         },
+                         {
+                           'Kills' => 2,
+                           'Nick' => 'Dono da Bola',
+                           'Id' => 5
+                         },
+                         {
+                           'Kills' => 1,
+                           'Nick' => 'Mal',
+                           'Id' => 6
+                         },
+                         {
+                           'Id' => 7,
+                           'Nick' => 'Assasinu Credi',
+                           'Kills' => 1
+                         }
+                       ],
+          'Time' => '0:00'
+        };
+$VAR1 = {
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Kills' => 24,
+                           'Nick' => 'Oootsimo'
+                         },
+                         {
+                           'Id' => 3,
+                           'Kills' => 20,
+                           'Nick' => 'Isgalamido'
+                         },
+                         {
+                           'Kills' => 14,
+                           'Nick' => 'Zeh',
+                           'Id' => 4
+                         },
+                         {
+                           'Id' => 5,
+                           'Kills' => 14,
+                           'Nick' => 'Dono da Bola'
+                         },
+                         {
+                           'Id' => 6,
+                           'Kills' => 9,
+                           'Nick' => 'Mal'
+                         },
+                         {
+                           'Nick' => 'Assasinu Credi',
+                           'Kills' => 22,
+                           'Id' => 7
+                         },
+                         {
+                           'Id' => 8,
+                           'Kills' => 0,
+                           'Nick' => 'Chessus'
+                         }
+                       ],
+          'Time' => '3:32',
+          'Id' => 6
+        };
+$VAR1 = {
+          'Id' => 7,
+          'Time' => '11:22',
+          'Players' => [
+                         {
+                           'Kills' => 17,
+                           'Nick' => 'Oootsimo',
+                           'Id' => 2
+                         },
+                         {
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 24,
+                           'Id' => 3
+                         },
+                         {
+                           'Kills' => 15,
+                           'Nick' => 'Zeh',
+                           'Id' => 4
+                         },
+                         {
+                           'Kills' => 5,
+                           'Nick' => 'Dono da Bola',
+                           'Id' => 5
+                         },
+                         {
+                           'Id' => 6,
+                           'Kills' => 1,
+                           'Nick' => 'Mal'
+                         },
+                         {
+                           'Id' => 7,
+                           'Nick' => 'Assasinu Credi',
+                           'Kills' => 12
+                         }
+                       ]
+        };
+$VAR1 = {
+          'Id' => 8,
+          'Time' => '16:35',
+          'Players' => [
+                         {
+                           'Kills' => 9,
+                           'Nick' => 'Oootsimo',
+                           'Id' => 2
+                         },
+                         {
+                           'Id' => 3,
+                           'Nick' => 'Dono da Bola',
+                           'Kills' => 2
+                         },
+                         {
+                           'Nick' => 'Zeh',
+                           'Kills' => 15,
+                           'Id' => 4
+                         },
+                         {
+                           'Id' => 5,
+                           'Nick' => 'Chessus',
+                           'Kills' => 12
+                         },
+                         {
+                           'Id' => 6,
+                           'Nick' => 'Mal',
+                           'Kills' => 7
+                         },
+                         {
+                           'Id' => 7,
+                           'Nick' => 'Assasinu Credi',
+                           'Kills' => 11
+                         }
+                       ]
+        };
+$VAR1 = {
+          'Id' => 9,
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Kills' => 1,
+                           'Nick' => 'Oootsimo'
+                         },
+                         {
+                           'Kills' => 5,
+                           'Nick' => 'Dono da Bola',
+                           'Id' => 3
+                         },
+                         {
+                           'Nick' => 'Zeh',
+                           'Kills' => 9,
+                           'Id' => 4
+                         },
+                         {
+                           'Id' => 5,
+                           'Nick' => 'Chessus',
+                           'Kills' => 6
+                         },
+                         {
+                           'Nick' => 'Mal',
+                           'Kills' => 6,
+                           'Id' => 6
+                         },
+                         {
+                           'Id' => 7,
+                           'Kills' => 5,
+                           'Nick' => 'Assasinu Credi'
+                         },
+                         {
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 10,
+                           'Id' => 8
+                         }
+                       ],
+          'Time' => '0:00'
+        };
+$VAR1 = {
+          'Id' => 10,
+          'Players' => [
+                         {
+                           'Id' => 3,
+                           'Kills' => 1,
+                           'Nick' => 'Dono da Bola'
+                         },
+                         {
+                           'Id' => 2,
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 7
+                         },
+                         {
+                           'Nick' => 'Zeh',
+                           'Kills' => 0,
+                           'Id' => 4
+                         },
+                         {
+                           'Id' => 5,
+                           'Kills' => 4,
+                           'Nick' => 'Oootsimo'
+                         },
+                         {
+                           'Nick' => 'Chessus',
+                           'Kills' => 0,
+                           'Id' => 6
+                         },
+                         {
+                           'Id' => 7,
+                           'Nick' => 'Assasinu Credi',
+                           'Kills' => 0
+                         },
+                         {
+                           'Nick' => 'Mal',
+                           'Kills' => 0,
+                           'Id' => 8
+                         }
+                       ],
+          'Time' => '0:00'
+        };
+$VAR1 = {
+          'Players' => [
+                         {
+                           'Kills' => 26,
+                           'Nick' => 'Isgalamido',
+                           'Id' => 2
+                         },
+                         {
+                           'Id' => 3,
+                           'Kills' => 11,
+                           'Nick' => 'Dono da Bola'
+                         },
+                         {
+                           'Id' => 4,
+                           'Nick' => 'Zeh',
+                           'Kills' => 14
+                         },
+                         {
+                           'Id' => 5,
+                           'Nick' => 'Oootsimo',
+                           'Kills' => 22
+                         },
+                         {
+                           'Nick' => 'Chessus',
+                           'Kills' => 17,
+                           'Id' => 6
+                         },
+                         {
+                           'Nick' => 'Assasinu Credi',
+                           'Kills' => 23,
+                           'Id' => 7
+                         },
+                         {
+                           'Id' => 8,
+                           'Nick' => 'Mal',
+                           'Kills' => 8
+                         }
+                       ],
+          'Time' => '2:33',
+          'Id' => 11
+        };
+$VAR1 = {
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 0
+                         },
+                         {
+                           'Kills' => 0,
+                           'Nick' => 'Dono da Bola',
+                           'Id' => 3
+                         },
+                         {
+                           'Id' => 4,
+                           'Kills' => 2,
+                           'Nick' => 'Zeh'
+                         },
+                         {
+                           'Id' => 5,
+                           'Kills' => 2,
+                           'Nick' => 'Oootsimo'
+                         },
+                         {
+                           'Kills' => 0,
+                           'Nick' => 'Chessus',
+                           'Id' => 6
+                         },
+                         {
+                           'Id' => 7,
+                           'Nick' => 'Assasinu Credi',
+                           'Kills' => 0
+                         },
+                         {
+                           'Id' => 8,
+                           'Nick' => 'Mal',
+                           'Kills' => 0
+                         }
+                       ],
+          'Time' => '10:28',
+          'Id' => 12
+        };
+$VAR1 = {
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 25
+                         },
+                         {
+                           'Nick' => 'Dono da Bola',
+                           'Kills' => 9,
+                           'Id' => 3
+                         },
+                         {
+                           'Id' => 4,
+                           'Nick' => 'Zeh',
+                           'Kills' => 12
+                         },
+                         {
+                           'Nick' => 'Oootsimo',
+                           'Kills' => 12,
+                           'Id' => 5
+                         },
+                         {
+                           'Kills' => 10,
+                           'Nick' => 'Chessus',
+                           'Id' => 6
+                         },
+                         {
+                           'Kills' => 12,
+                           'Nick' => 'Assasinu Credi',
+                           'Id' => 7
+                         },
+                         {
+                           'Id' => 8,
+                           'Kills' => 6,
+                           'Nick' => 'Mal'
+                         }
+                       ],
+          'Time' => '11:03',
+          'Id' => 13
+        };
+$VAR1 = {
+          'Id' => 14,
+          'Players' => [
+                         {
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 0,
+                           'Id' => 4
+                         },
+                         {
+                           'Nick' => 'Assasinu Credi',
+                           'Kills' => 0,
+                           'Id' => 7
+                         },
+                         {
+                           'Kills' => 0,
+                           'Nick' => 'Dono da Bola',
+                           'Id' => 2
+                         },
+                         {
+                           'Kills' => 0,
+                           'Nick' => 'Oootsimo',
+                           'Id' => 3
+                         },
+                         {
+                           'Kills' => 0,
+                           'Nick' => 'Assasinu Credi',
+                           'Id' => 5
+                         }
+                       ],
+          'Time' => '16:53'
+        };
+$VAR1 = {
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Kills' => 0,
+                           'Nick' => 'Dono da Bola'
+                         },
+                         {
+                           'Id' => 3,
+                           'Kills' => 0,
+                           'Nick' => 'Oootsimo'
+                         },
+                         {
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 0,
+                           'Id' => 4
+                         },
+                         {
+                           'Kills' => 0,
+                           'Nick' => 'Assasinu Credi',
+                           'Id' => 5
+                         },
+                         {
+                           'Nick' => 'Zeh',
+                           'Kills' => 0,
+                           'Id' => 6
+                         }
+                       ],
+          'Time' => '981:27',
+          'Id' => 15
+        };
+$VAR1 = {
+          'Time' => '0:00',
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Kills' => 0,
+                           'Nick' => 'Dono da Bola'
+                         },
+                         {
+                           'Kills' => 2,
+                           'Nick' => 'Oootsimo',
+                           'Id' => 3
+                         },
+                         {
+                           'Kills' => 1,
+                           'Nick' => 'Isgalamido',
+                           'Id' => 4
+                         },
+                         {
+                           'Nick' => 'Assasinu Credi',
+                           'Kills' => 0,
+                           'Id' => 5
+                         },
+                         {
+                           'Id' => 6,
+                           'Nick' => 'Zeh',
+                           'Kills' => 1
+                         },
+                         {
+                           'Nick' => 'Mal',
+                           'Kills' => 0,
+                           'Id' => 7
+                         }
+                       ],
+          'Id' => 16
+        };
+$VAR1 = {
+          'Id' => 17,
+          'Time' => '0:00',
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 1
+                         },
+                         {
+                           'Id' => 3,
+                           'Nick' => 'Oootsimo',
+                           'Kills' => 0
+                         },
+                         {
+                           'Id' => 4,
+                           'Kills' => 0,
+                           'Nick' => 'Dono da Bola'
+                         },
+                         {
+                           'Id' => 5,
+                           'Kills' => 2,
+                           'Nick' => 'Assasinu Credi'
+                         },
+                         {
+                           'Kills' => 2,
+                           'Nick' => 'Zeh',
+                           'Id' => 6
+                         },
+                         {
+                           'Nick' => 'Mal',
+                           'Kills' => 0,
+                           'Id' => 7
+                         }
+                       ]
+        };
+$VAR1 = {
+          'Players' => [
+                         {
+                           'Kills' => 15,
+                           'Nick' => 'Isgalamido',
+                           'Id' => 2
+                         },
+                         {
+                           'Kills' => 11,
+                           'Nick' => 'Oootsimo',
+                           'Id' => 3
+                         },
+                         {
+                           'Id' => 4,
+                           'Nick' => 'Dono da Bola',
+                           'Kills' => 15
+                         },
+                         {
+                           'Id' => 5,
+                           'Kills' => 12,
+                           'Nick' => 'Assasinu Credi'
+                         },
+                         {
+                           'Id' => 6,
+                           'Kills' => 21,
+                           'Nick' => 'Zeh'
+                         },
+                         {
+                           'Nick' => 'Mal',
+                           'Kills' => 8,
+                           'Id' => 7
+                         }
+                       ],
+          'Time' => '0:35',
+          'Id' => 18
+        };
+$VAR1 = {
+          'Id' => 19,
+          'Time' => '6:10',
+          'Players' => [
+                         {
+                           'Id' => 2,
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 0
+                         },
+                         {
+                           'Id' => 3,
+                           'Kills' => 1,
+                           'Nick' => 'Oootsimo'
+                         },
+                         {
+                           'Nick' => 'Dono da Bola',
+                           'Kills' => 2,
+                           'Id' => 4
+                         },
+                         {
+                           'Id' => 5,
+                           'Kills' => 0,
+                           'Nick' => 'Assasinu Credi'
+                         },
+                         {
+                           'Id' => 6,
+                           'Kills' => 0,
+                           'Nick' => 'Zeh'
+                         },
+                         {
+                           'Nick' => 'Mal',
+                           'Kills' => 0,
+                           'Id' => 7
+                         }
+                       ]
+        };
+$VAR1 = {
+          'Time' => '6:34',
+          'Players' => [
+                         {
+                           'Nick' => 'Isgalamido',
+                           'Kills' => 19,
+                           'Id' => 2
+                         },
+                         {
+                           'Nick' => 'Oootsimo',
+                           'Kills' => 24,
+                           'Id' => 3
+                         },
+                         {
+                           'Id' => 4,
+                           'Kills' => 16,
+                           'Nick' => 'Dono da Bola'
+                         },
+                         {
+                           'Id' => 5,
+                           'Kills' => 22,
+                           'Nick' => 'Assasinu Credi'
+                         },
+                         {
+                           'Id' => 6,
+                           'Kills' => 21,
+                           'Nick' => 'Zeh'
+                         },
+                         {
+                           'Id' => 7,
+                           'Kills' => 12,
+                           'Nick' => 'Mal'
+                         }
+                       ],
+          'Id' => 20
+        };
