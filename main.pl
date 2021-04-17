@@ -4,6 +4,8 @@ no strict "refs";
 
 use Data::Dumper;
 
+use constant WORLD_ID => 1022;
+
 my $filename = "games.log";
 open(FILE, '<', $filename) or die "Could not open file!";
 
@@ -92,12 +94,24 @@ sub client_user_changed_info {
 
 sub kill {
   my $killer_id = $_[2];
+  my $killed_id = $_[3];
+
+  if ($killer_id == $killed_id) { return; }
 
   my @player_list = @{$games[$current_game]{'Players'}};
+  if ($killer_id == WORLD_ID) {
+    foreach my $player (@player_list) {
+      if ($player->{'Id'} == $killed_id) {
+        ${$player}{'Kills'} -= 1;
+      }
+    }
+    return;  
+  }
+
   foreach my $player (@player_list){
     if ($player->{'Id'} == $killer_id) {
-      ${$player}{'Kills'} += 1
+        ${$player}{'Kills'} += 1;
+      }
     }
-  }
 
 }
