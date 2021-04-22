@@ -2,15 +2,13 @@ use strict;
 use warnings;
 no strict "refs";
 
-use Data::Dumper;
+use JSON;
 
+#CONST OF MAP ID
 use constant WORLD_ID => 1022;
 
-my $filename = "games.log";
-open(FILE, '<', $filename) or die "Could not open file!";
-
-
-my @games;
+#GLOBAL VARIABLES
+my @games; 
 my %actions = (
   "InitGame" => \&init_game,
   "ClientConnect" => \&client_connect,
@@ -19,22 +17,22 @@ my %actions = (
 );
 my $current_game = -1;
 
-while (my $line = <FILE>) {
-  chomp $line;
-  my @line_fields = split(' ', $line);
+#LOOP PARSER
+while (<>) {
+  chomp $_; #CLEANING LINE
+  my @line_fields = split(' ', $_);
   my $action = $line_fields[1];
   exec_action($action, @line_fields)
 
 }
 
-open(DATA, ">output.txt") or die "Could not open file"  ;
+#CREATE JSON FILE
+my $json_text = JSON->new->encode(\@games);
+open(DATA, ">output.json") or die "Could not open file";
+print DATA $json_text;  
+close (DATA);
 
-foreach my $rows (@games) {
-  print DATA Dumper $rows;  
-}
-
-close (DATA);  
-
+#CALL THE FUNCTION IN %actions ACCORDING PARAM ACTION
 sub exec_action {
   my ($action, @line) = @_;
   chop $action;
@@ -48,11 +46,12 @@ sub init_game {
   $current_game = scalar @games;
   my %new_game = (
     Id => $current_game,
-    Time => $line[0],
+    Total_Kills => 0
   );
   push(@games, \%new_game);
 }
 
+#CREATING NEW PLAYER
 sub client_connect {
   my @line = @_;
   my $user_id = $line[2];
@@ -63,24 +62,25 @@ sub client_connect {
   );
 
   if (exists($games[$current_game]{'Players'})){
-    my @player_list = @{$games[$current_game]{'Players'}};  
+    my @player_list = @{$games[$current_game]{'Players'}}; #GETTING REFERENCE OF PLAYER LIST INSIDE GAME HASH
     foreach my $player(@player_list) {
       if ($player->{'Id'} == $user_id) {
         return;
       }
     }
   } else {
-    $games[$current_game]{'Players'} = ();
+    $games[$current_game]{'Players'} = (); #CREATING NEW FIELD PLAYER CASE NO PLAYERS REGISTERED
   }
 
-  push( @{$games[$current_game]{'Players'}}, \%new_player);
+  push( @{$games[$current_game]{'Players'}}, \%new_player); #ADDING THE NEW PLAYER
 }
 
+#CHANGING NAME OF PLAYER
 sub client_user_changed_info {
   my @line = @_;
   my $user_id = $line[2];
-  my $user_info = join(' ', @line[3 .. $#line]);
-  my @username = $user_info =~ /n\\(.*?)\\t/;
+  my $user_info = join(' ', @line[3 .. $#line]); #JOIN CASE BLANK SPACES IN PLAYER NAME
+  my @username = $user_info =~ /n\\(.*?)\\t/; #FILTERING STRING WITH REGEX
   
   my @player_list = @{$games[$current_game]{'Players'}};
   foreach my $player (@player_list){
@@ -111,6 +111,7 @@ sub kill {
   foreach my $player (@player_list){
     if ($player->{'Id'} == $killer_id) {
         ${$player}{'Kills'} += 1;
+        $games[$current_game]{'Total_Kills'} += 1;
       }
     }
 
