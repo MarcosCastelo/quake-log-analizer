@@ -5,4 +5,6 @@
   - Perl 5.X
 
 ## Usage
-  - perl main.pl <file name>
+  ```bash
+  perl main.pl <file name>
+  ```
